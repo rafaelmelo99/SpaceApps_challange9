@@ -1,14 +1,9 @@
 import numpy as np 
 import pandas as pd 
-import keras
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-from keras.layers import Input, Dense, Dropout
-from keras.models import Model
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
-from keras.utils import plot_model 
-from keras.optimizers import SGD
 
 #get data
 
